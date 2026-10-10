@@ -6,13 +6,7 @@ font-family: Arial, Helvetica, sans-serif;
 
 
 }
-div{
-    background-color: #0f1111;
-   height: 75px;
-   color: white;
-   display: flex;
-   
-}
+
 .logo{
       background-image: url(amazon\ new.jpg);
       background-size: 50px 50px; 
