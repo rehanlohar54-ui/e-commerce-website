@@ -1,14 +1,9 @@
 
 
-
-.addfirst{
-color: #cccccc;
- font-size: 0.85rem;
-padding-left: 35px;
-padding-top: 17px;
-
-
+h1{
+    color: aqua;
 }
+
 
 i{
     position: relative;
