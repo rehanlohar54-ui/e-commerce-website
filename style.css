@@ -1,0 +1,394 @@
+*{
+    
+    margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+div{
+    background-color: #0f1111;
+   height: 75px;
+   color: white;
+   display: flex;
+   
+}
+.logo{
+      background-image: url(amazon\ new.jpg);
+      background-size: 50px 50px; 
+background-size: contain;
+ width: 140px;
+height: 50px;
+position: relative;
+top: 15px;
+left: 10px;
+}
+
+/**box2**/
+
+.addfirst{
+color: #cccccc;
+ font-size: 0.85rem;
+padding-left: 35px;
+padding-top: 17px;
+
+
+}
+
+i{
+    position: relative;
+    top: 35px;
+    right: 85px;
+}
+
+
+.addsecond{
+
+
+    padding:35px 0 0 ;
+position: relative;
+right: 80px;
+
+}
+
+
+/**box3**/
+
+.navsearch{
+    
+    height: 42px;
+   position: relative;
+   top: 15px;
+   right: 30px;
+
+}
+
+
+#navinput{
+width: 600px;
+padding-left: 15px;
+
+}
+
+.searchicon{
+    color: aqua;
+position: relative;
+left: 55px;
+bottom: 16px;
+height: 30px;
+
+}
+
+
+/**box4**/
+
+
+
+.navfirst{
+    position: relative;
+z-index:2 ;
+font-size: 0.85rem;
+position: relative;
+top: 12px;
+}
+
+
+#navsecond{
+font-weight: 600;
+padding-top: 35px; 
+position: relative;
+right: 80px;
+}
+
+#navorder{
+    padding-top: 35px;
+    position: relative;
+    right: 47px;
+}
+
+/**box5**/
+
+.navcart{
+  position: relative;
+  left: 120px;
+  bottom: 15px;
+  
+  font-size: 30px;
+  
+}
+
+#cart{
+position: relative;
+top: 45px;
+right: 85px;
+    font-size: 15px;
+}
+
+/**panel**/
+a{
+    
+display: flex;
+color: white;
+cursor: pointer;
+
+}
+
+
+
+a :hover{
+    color: blue;
+font-size: 16px;
+transition-duration: 1s;
+transform: scale(0.2s);
+}
+
+.all{
+    color: white;
+    cursor: pointer;
+
+}
+
+
+
+
+#panelall{
+    position: relative;
+    left: 10px;
+     display: flex; 
+     font-weight: 600;
+       }
+
+
+
+
+
+.ps{
+ padding-left: 35px;   
+}
+
+
+#paneloption{
+
+    position: relative;
+    left: 50px;
+}
+
+
+panel{
+      
+          display: flex;    
+     background-color: #222f3d;
+  height: 40px;
+ align-items: center;
+}
+
+
+#paneldeals{
+    position: relative;
+    left: 46%;
+   font-size: 17px;
+   font-weight: 550;
+}
+
+#paneldeals:hover{
+
+transition: 1s;
+font-size: 17.5px;
+
+}
+
+
+
+
+/**hero sec **/
+
+.hero1{
+    height: 500px;
+
+}
+
+.saleimg{
+    box-shadow: 0 0 20px blue;
+    background-image: url(sale2.jpeg);
+    background-position: center;
+    height: 500px;
+    
+    background-size: contain;
+    background-repeat: no-repeat;   
+}
+
+
+
+.heromsg{
+    display: flex;
+ background-color: black;
+ color: white;
+ height: 40px;
+ justify-content: center;
+ align-items: center;
+ width: 90%;
+ margin-left: 80px;
+position: relative;
+top: 86%;
+}
+
+.click {
+color: #007185;
+padding-left: 15px;
+text-decoration: none;
+transition: 0.3s ease;
+}
+.click:hover{
+color: blue;
+font-size: 17px;
+
+
+
+}
+
+
+
+/** shop sec**/
+
+
+.shopsection{
+    background-color: rgba(0, 255, 255, 0.195);
+ justify-content: space-evenly;  
+  height: 500px;
+  
+
+}
+
+
+
+
+
+
+.box:hover {
+ transition: 1s;
+ color:rgba(0, 0, 0, 0.482); 
+ font-size: 17px;
+
+
+}
+
+.box{
+    background-color: rgba(255, 255, 255, 0.985);
+    cursor: pointer;   
+    color: white;
+    width:22%; 
+    height: 400px;
+    transition: transform 0.3s ease;   
+  padding: 30px 0 0 15px;  
+margin-top: 20px;
+}
+
+.box1{
+display: block;
+background-color: white;
+color: black;
+}
+
+.boximg:hover{
+transition: 1s;
+ color:rgba(0, 0, 0, 0.482); 
+transform: scale(1.02);
+}
+
+.boximg{
+    width: 100%;
+    height: 75%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover; 
+ position: relative;
+ top: 17px;
+ right: 5px;
+}
+
+#seemore:hover{
+transition: 2s;
+font-size: 17px;
+
+
+}
+
+.see-more{
+color:#007185 ;
+  padding-top: 40px;
+}
+
+
+
+/**footer**/
+
+/* Footer Section */
+
+#foot1{
+
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    background-color: #37475a;
+    
+}
+
+#foot2-container{
+    background-color: #131a22;
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+    padding: 50px 0;
+   height: 250px;
+
+}
+
+.foot2{
+    display: flex;
+    flex-direction: column;
+         background-color: #131a22;
+    }
+
+.p2{
+
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.foot2 a{
+    color: #cccccc;
+    margin-top: 10px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+
+
+
+.foot4{
+background-color: #0f1111;
+justify-content: center;
+width: 100%;
+display: block; 
+align-items: center;
+align-content: center;
+color: #dddddd;}
+
+.page1{
+text-align: center;
+height: 6px;
+
+}
+
+.page2{
+    text-align: center;
+    
+}
+
+
